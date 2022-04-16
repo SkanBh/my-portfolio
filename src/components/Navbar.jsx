@@ -68,7 +68,7 @@ const Navbar = () => {
         onClick={handleClick}
         className="md:hidden  z-10 cursor-pointer  hover:text-pink-600 font-bold"
       >
-        {!nav ? <FaBars /> : <FaTimes  />}
+        {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile menu */}
@@ -148,7 +148,7 @@ const Navbar = () => {
       {/* {Social icons} */}
       <div className="hidden lg:flex fixed  flex-col top-[35%] left-0">
         <ul>
-          <li className={`bg-blue-700 ${asideIcon}`}>
+          <li className={`pl-5 font-medium bg-blue-700 ${asideIcon}`}>
             <a
               className={iconLink}
               href="https://www.linkedin.com/in/baha-khmeissi/"
@@ -158,7 +158,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className={` bg-[#333333] ${asideIcon}`}>
+          <li className={` pl-5 font-medium  bg-[#333333] ${asideIcon}`}>
             <a
               className={iconLink}
               href="https://github.com/BahaKhmeissi"
@@ -168,7 +168,7 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className={`${asideIcon} bg-[#6fc2b0]`}>
+          <li className={`${asideIcon} pl-5 font-medium bg-[#6fc2b0]`}>
             <Link
               className={iconLink}
               to="contact"

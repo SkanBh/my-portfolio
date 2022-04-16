@@ -36,6 +36,7 @@ function App() {
         backgroundImage: darkMode
           ? ""
           : " linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)",
+        transition:"all 2s ease"
       }}
     >
       <Toggle />

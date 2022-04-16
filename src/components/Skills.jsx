@@ -10,6 +10,7 @@ import wordpress from "../assets/wordpress.png";
 import Tailwind from "../assets/tailwind-css.png";
 import { useContext, useEffect, useRef } from "react";
 import { ThemeContext } from "../context";
+import { SKILLS } from "../utils/constants";
 
 const Skills = () => {
   const skillsCard ="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
@@ -25,9 +26,7 @@ const Skills = () => {
     <div
       name="skills"
       className={
-        darkMode
-          ? "  w-full    text-gray-300 "
-          : "  w-full    text-[#0a192f] "
+        darkMode ? "  w-full    text-gray-300 " : "  w-full    text-[#0a192f] "
       }
       id="skills"
     >
@@ -41,39 +40,16 @@ const Skills = () => {
           </p>
         </div>
 
-        <div data-aos="fade-up" className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className={skillsCard}>
-            <img className={skillsImg} src={html} alt="HTML icon" />
-            <p className={skillsP}>HTML</p>
-          </div>
-          <div className={skillsCard}>
-            <img className={skillsImg} src={CSS} alt="CSS icon" />
-            <p className={skillsP}>CSS</p>
-          </div>
-          <div className={skillsCard}>
-            <img className={skillsImg} src={JavaScript} alt="Js icon" />
-            <p className={skillsP}>JavaScript</p>
-          </div>
-          <div className={skillsCard}>
-            <img className={skillsImg} src={Reacty} alt="React icon" />
-            <p className={skillsP}>React</p>
-          </div>
-          <div className={` ${skillsCard}`}>
-            <img className={` ${skillsImg}`} src={Tailwind} alt="TCSS icon" />
-            <p className={` ${skillsP}`}>Tailwind CSS</p>
-          </div>
-          <div className={skillsCard}>
-            <img className={skillsImg} src={php} alt="PHP icon" />
-            <p className={skillsP}>PHP</p>
-          </div>
-          <div className={skillsCard}>
-            <img className={skillsImg} src={wordpress} alt="WordPress icon" />
-            <p className={skillsP}>WordPress</p>
-          </div>
-          <div className={skillsCard}>
-            <img className={skillsImg} src={GitHub} alt="GitHub icon" />
-            <p className={skillsP}>GitHub</p>
-          </div>
+        <div
+          data-aos="fade-up"
+          className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8"
+        >
+          {SKILLS.map(({ alt, logo, name }, index) => (
+            <div className={skillsCard} key={index.toString()}>
+              <img className={skillsImg} src={logo} alt={alt} />
+              <p className={skillsP}>{name}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
