@@ -106,9 +106,9 @@ const Contact = () => {
           <FaGithub className={mobileIcon} size={40} />
         </a>
 
-        <a href="">
+      
           <Link
-            className=" w-full "
+            className="cursor-pointer"
             to="contact"
             spy={true}
             smooth={true}
@@ -116,7 +116,7 @@ const Contact = () => {
           >
             <HiOutlineMail className={mobileIcon} size={40} />
           </Link>
-        </a>
+      
       </div>
     </>
   );
