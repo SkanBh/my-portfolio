@@ -1,32 +1,37 @@
 import  {
-    LeBlogCulinaire,airBnb,Foodies,DiceGame,Mapty,Hulu,Bankist,Forkify,Linkedin
+    LeBlogCulinaire,airBnb,SiteMedia,DiceGame,Mapty,Hulu,Bankist,Forkify,DragonSlayer
 } from './workImg'
 
 const WORK = [
   {
+    img: SiteMedia,
+    name: "Media Site",
+    link: "https://github.com/SkanBh/site-media",
+  },
+  {
     img: LeBlogCulinaire,
-    name: "Le Blog Culinaire",
+    name: " Culinary Blog",
     link: "https://github.com/SkanBh/LeBlogCulinaire",
   },
   {
     img: airBnb,
-    name: "airBnb Clone",
+    name: "AirBnb HomePage",
     link: "https://github.com/BahaKhmeissi/airBnb",
-  },
-  {
-    img: Foodies,
-    name: "Foodies App",
-    link: "https://github.com/BahaKhmeissi/Foodies",
   },
   {
     img: DiceGame,
     name: "DiceGame",
-    link: "https://github.com/BahaKhmeissi/last-game-",
+    link: "https://github.com/SkanBh/dice-game",
   },
   {
     img: Mapty,
     name: " Workout App",
-    link: "https://github.com/BahaKhmeissi/Mapty",
+    link: "https://github.com/SkanBh/workout-app",
+  },
+  {
+    img: DragonSlayer,
+    name: "Dragon VS Slayer",
+    link: "https://github.com/SkanBh/dragon-vs-slayer",
   },
   {
     img: Hulu,
@@ -42,11 +47,6 @@ const WORK = [
     img: Forkify,
     name: "Forkify",
     link: "https://github.com/BahaKhmeissi/Forkify",
-  },
-  {
-    img: Linkedin,
-    name: "Linkedin Clone",
-    link: "https://github.com/BahaKhmeissi/LinkidinClone",
   },
 ];
 
