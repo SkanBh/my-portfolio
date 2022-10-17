@@ -5,8 +5,8 @@ import html from "../assets/html.png";
 import Reacty from "../assets/structure.png";
 import wordpress from "../assets/wordpress.png";
 import Tailwind from "../assets/tailwind-css.png";
-import node from "../assets/node.png";
-import Express from "../assets/Expressjs.png";
-import MongoDB from "../assets/MongoDB.jpg";
+import Next from "../assets/Next-js.jpeg";
+import PHP from "../assets/PHP-logo.png";
+import SQL from "../assets/sql.png";
 
-export { CSS, JavaScript, GitHub,Express, html, Reacty, wordpress, Tailwind,node,MongoDB };
+export { CSS, JavaScript, GitHub,PHP, html, Reacty, wordpress, Tailwind,Next,SQL };

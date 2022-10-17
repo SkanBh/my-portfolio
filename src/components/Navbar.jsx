@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import logo from "../assets/logo4.png";
+import logo from "../assets/logo SB.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -151,7 +151,7 @@ const Navbar = () => {
           <li className={`pl-5 font-medium bg-blue-700 ${asideIcon}`}>
             <a
               className={iconLink}
-              href="https://www.linkedin.com/in/baha-khmeissi/"
+              href="https://www.linkedin.com/in/skander-bhoury/"
               target="blank"
             >
               LinkedIn <FaLinkedin size={30} />{" "}
@@ -161,7 +161,7 @@ const Navbar = () => {
           <li className={` pl-5 font-medium  bg-[#333333] ${asideIcon}`}>
             <a
               className={iconLink}
-              href="https://github.com/BahaKhmeissi"
+              href="https://github.com/SkanBh"
               target="blank"
             >
               Github <FaGithub size={30} />{" "}

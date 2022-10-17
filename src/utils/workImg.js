@@ -1,4 +1,4 @@
-import Meme from "../assets/Meme.PNG";
+import LeBlogCulinaire from "../assets/LeBlogCulinaire.png";
 import airBnb from "../assets/airBnb.PNG";
 import Foodies from "../assets/foodies.PNG";
 import DiceGame from "../assets/diceGame.PNG";
@@ -10,5 +10,5 @@ import Linkedin from "../assets/linkedin.PNG";
 
 
 export {
-    Meme,airBnb,Foodies,DiceGame,Mapty,Hulu,Bankist,Forkify,Linkedin
+    LeBlogCulinaire,airBnb,Foodies,DiceGame,Mapty,Hulu,Bankist,Forkify,Linkedin
 }

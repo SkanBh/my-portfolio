@@ -37,18 +37,15 @@ const About = () => {
         <div className="max-w-[1000px]  w-full grid sm:grid-cols-2 gap-8 px-4 ">
           <div data-aos="fade-up" className="sm:text-right text-4xl font-bold">
             <p className="pt-3">
-              Hi, I'm Baha, Nice to meet you, Please take a look around.
+              Hi, I'm Skander, Nice to meet you, Please take a look around.
             </p>
           </div>
           <div data-aos="fade-right" className="leading-loose sm:my-[20px]">
-            I am passionate about building excellent software that improves the
-            lives of those around me. I specialize in creating software for
-            clients ranging from individuals and small-businesses all the way to
-            large enterprise corporations. I'm passionate about bringing both
-            the technical and visual aspects of digital products to life. User
-            experience, beautiful pixels and writing clean accessible, human
-            code matters to me. I sweat the details. What would you do if you
-            had a software expert available at your fingertips?
+            Able to work on different size projects, 
+            I am specialized in building websites and web applications in order to answer to different demandes
+            and customer's expectations. 
+            I am always keen on providing both of technical and visual aspects of digital products, 
+            with the objectif of creating a perfect user experience.
           </div>
         </div>
       </div>

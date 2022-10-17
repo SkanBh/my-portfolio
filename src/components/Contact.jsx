@@ -57,7 +57,7 @@ const Contact = () => {
                 size={30}
               />
               Hire me -{" "}
-              <span className="font-bold text-1xl">Bahaeddkh@gmail.com </span>{" "}
+              <span className="font-bold text-1xl">bhoury.skander@gmail.com </span>{" "}
             </p>
             <p className={`text-xl ${color}`}>
               <HiPhone
@@ -65,7 +65,7 @@ const Contact = () => {
                 className={mobileIcon}
                 size={30}
               />
-              +216 55 756 171
+              +216 51 743 999 / +33 7 81 52 67 31
             </p>
           </div>
           <input
@@ -98,11 +98,11 @@ const Contact = () => {
         className=" lg:hidden  pt-10 pb-[30px] w-full  flex justify-center  space-x-12 "
         id="contactIcon"
       >
-        <a href="https://www.linkedin.com/in/baha-khmeissi/" target="blank">
+        <a href="https://www.linkedin.com/in/skander-bhoury/" target="blank">
           <FaLinkedin className={mobileIcon} size={40} />
         </a>
 
-        <a href="https://github.com/BahaKhmeissi" target="blank">
+        <a href="https://github.com/SkanBh" target="blank">
           <FaGithub className={mobileIcon} size={40} />
         </a>
 

@@ -14,7 +14,7 @@ import { ThemeContext } from "../context";
 import { SKILLS } from "../utils/constants";
 
 const Skills = () => {
-  const skillsCard ="shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
+  const skillsCard ="flex flex-col justify-around shadow-md shadow-[#040c16] hover:scale-110 duration-500 cursor-pointer"
   const skillsImg = "w-20 mx-auto"
   const skillsP ="my-4 font-bold"
 

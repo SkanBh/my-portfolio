@@ -1,12 +1,12 @@
 import  {
-    Meme,airBnb,Foodies,DiceGame,Mapty,Hulu,Bankist,Forkify,Linkedin
+    LeBlogCulinaire,airBnb,Foodies,DiceGame,Mapty,Hulu,Bankist,Forkify,Linkedin
 } from './workImg'
 
 const WORK = [
   {
-    img: Meme,
-    name: "Meme Generator",
-    link: "https://github.com/BahaKhmeissi/MemeGen",
+    img: LeBlogCulinaire,
+    name: "Le Blog Culinaire",
+    link: "https://github.com/SkanBh/LeBlogCulinaire",
   },
   {
     img: airBnb,

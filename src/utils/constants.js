@@ -6,9 +6,9 @@ import {
   Reacty,
   wordpress,
   Tailwind,
-  node,
-  Express,
-  MongoDB
+  Next,
+  PHP,
+  SQL,
 } from "./images";
 
 const SKILLS = [
@@ -18,9 +18,9 @@ const SKILLS = [
   //   name: "HTML",
   // },
   {
-    alt: "MongoDB icon",
-    logo: MongoDB,
-    name: "MongoDB",
+    alt: "PHP icon",
+    logo: PHP,
+    name: "Php",
   },
   // {
   //   alt: "CSS icon",
@@ -28,44 +28,43 @@ const SKILLS = [
   //   name: "CSS",
   // },
   {
-    alt: "Express icon",
-    logo: Express,
-    name: "Express js"
-  },
-  {
-    alt: "React icon",
-    logo: Reacty,
-    name: "React",
-  },
-  {
-    alt: "Node icon",
-    logo: node,
-    name: "Node js"
-  }, 
-  {
-    alt: "Js icon",
-    logo: JavaScript,
-    name: "JavaScript",
-  },
-  
-  {
-    alt: "TCSS icon",
-    logo: Tailwind,
-    name: "Tailwind CSS",
-  },
-
-  
-  {
     alt: "WordPress icon",
     logo: wordpress,
     name: "WordPress",
   },
   {
+    alt: "React icon",
+    logo: Reacty,
+    name: "React JS",
+  },
+  {
+    alt: "Next icon",
+    logo: Next,
+    name: "Next js",
+  },
+
+  {
+    alt: "SQL icon",
+    logo: SQL,
+    name: "MySQL",
+  },
+
+  {
+    alt: "TCSS icon",
+    logo: Tailwind,
+    name: "Tailwind CSS",
+  },
+  {
+    alt: "Js icon",
+    logo: JavaScript,
+    name: "JavaScript",
+  },
+
+  {
     alt: "GitHub icon",
     logo: GitHub,
     name: "GitHub",
   },
- 
 ];
 
 export { SKILLS };
