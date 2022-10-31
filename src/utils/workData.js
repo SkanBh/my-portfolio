@@ -1,5 +1,5 @@
 import  {
-    LeBlogCulinaire,airBnb,SiteMedia,DiceGame,Mapty,Hulu,Bankist,Forkify,DragonSlayer
+    LeBlogCulinaire,MarvelQuiz,SiteMedia,DiceGame,Mapty,Hulu,Bankist,Forkify,DragonSlayer
 } from './workImg'
 
 const WORK = [
@@ -14,9 +14,9 @@ const WORK = [
     link: "https://github.com/SkanBh/LeBlogCulinaire",
   },
   {
-    img: airBnb,
-    name: "AirBnb HomePage",
-    link: "https://github.com/BahaKhmeissi/airBnb",
+    img: MarvelQuiz,
+    name: "Marvel Quiz App",
+    link: "https://github.com/SkanBh/marvel-quizz",
   },
   {
     img: DiceGame,

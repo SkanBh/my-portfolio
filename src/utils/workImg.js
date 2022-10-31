@@ -1,6 +1,6 @@
 import LeBlogCulinaire from "../assets/LeBlogCulinaire.png";
-import airBnb from "../assets/airBnb.PNG";
 import SiteMedia from "../assets/Arabesque.png";
+import MarvelQuiz from "../assets/MarvelQuiz.png"
 import DiceGame from "../assets/diceGame.PNG";
 import Mapty from "../assets/workout-app.png";
 import Hulu from "../assets/hulu.PNG";
@@ -10,5 +10,5 @@ import DragonSlayer from "../assets/dragon-vs-slayer.png";
 
 
 export {
-    LeBlogCulinaire,airBnb,SiteMedia,DiceGame,Mapty,Hulu,Bankist,Forkify,DragonSlayer
+    LeBlogCulinaire,SiteMedia,MarvelQuiz,DiceGame,Mapty,Hulu,Bankist,Forkify,DragonSlayer
 }

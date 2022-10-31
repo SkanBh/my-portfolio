@@ -34,11 +34,11 @@ const Contact = () => {
     <>
       <div
         name="contact"
-        className=" w-full    flex justify-center items-center p-4 "
+        className=" w-full flex justify-center items-center p-4 "
         id="contact"
       >
         <form
-          action="https://getform.io/f/3e0fba87-fe14-4236-87c9-852a5c845be3"
+          action="https://getform.io/f/e64e9abf-4393-4283-bc72-e09cf2f54629"
           method="POST"
           className="flex flex-col max-w-[600px] w-full "
         >
