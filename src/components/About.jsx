@@ -42,7 +42,7 @@ const About = () => {
           </div>
           <div data-aos="fade-right" className="leading-loose sm:my-[20px]">
             Able to work on different size projects, 
-            I am specialized in building websites and web applications in order to answer to different demandes
+            I am specialized in building websites and web applications in order to answer to various demands
             and customer's expectations. 
             I am always keen on providing both of technical and visual aspects of digital products, 
             with the objectif of creating a perfect user experience.
