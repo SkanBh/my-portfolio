@@ -1,6 +1,6 @@
 import React from 'react' ; 
 import {HiArrowNarrowRight} from 'react-icons/hi'
-import Skan from '../assets/Skan.png'
+import Skan from '../assets/DSC_5188.png'
 import { Link } from "react-scroll";
 import {init} from 'ityped' ; 
 import {useContext, useEffect,useRef } from 'react';
